@@ -49,7 +49,7 @@ async def start(bot, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=https://t.me/keralamoviesn)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -81,10 +81,10 @@ async def start(bot, message):
                         print(e)
                         f_caption=f_caption
                 if f_caption is None:
-                    f_caption = f"{files.file_name}"
+                    f_caption = f"{files.file_name}" /n @keralamoviesn
                 buttons = [
                     [
-                        InlineKeyboardButton('🎖 DEPLOY YOURS 🎖', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🎖 JOIN CHANNEL 🎖', url="https://t.me/keralamoviesn"
                     ]
                     ]
                 await bot.send_cached_media(
@@ -103,7 +103,7 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                        InlineKeyboardButton("📢 Join Updates Channel 📢", url=https://t.me/keralamoviesn)
                     ]
                 ]
             )
@@ -118,7 +118,7 @@ async def start(bot, message):
                 InlineKeyboardButton("Search Here", switch_inline_query_current_chat='')
                 ],[
                 InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton("About", https://t.me/keralamoviesn)
                 ]]
             )
         )
